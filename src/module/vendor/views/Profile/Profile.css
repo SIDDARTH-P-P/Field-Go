@@ -1,0 +1,44 @@
+.photo-btn,
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.textfield {
+    width: 100%;
+}
+
+.photo-btn {
+    padding-top: 20px;
+}
+
+.textcard {
+    padding: 20px;
+}
+
+.textcontent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textcontenticon {
+    margin-right: 10px;
+}
+
+.password-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media only screen and (max-width: 599px) {
+    .media600 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
